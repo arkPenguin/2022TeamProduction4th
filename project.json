@@ -12,10 +12,10 @@
         "ThirdPersonTemplate"
     ],
     "icon_path": "preview.png",
-    "engine": "o3de-sdk",
+    "engine": "o3de",
     "external_subdirectories": [
         "Gem"
     ],
     "restricted": "ThirdPersonTemplate",
-	"origin_uri":"https://github.com/o3de/ThirdPersonTemplate.git"
+    "origin_uri": "https://github.com/o3de/ThirdPersonTemplate.git"
 }
