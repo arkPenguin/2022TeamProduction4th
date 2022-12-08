@@ -1,10 +1,10 @@
 {
     "repo_name": "ThirdPersonTemplate",
     "origin": "GitHub",
-    "repo_uri": "https://github.com/o3de/ThirdPersonTemplate.git",
+    "repo_uri": "https://github.com/ShivAlley/2022TeamProduction4th.git,
     "summary": "A template project for a controllable character with a 3rd person perspective camera.",
     "additional_info": "",
     "projects": [
-        "https://github.com/o3de/ThirdPersonTemplate.git"
+        "https://github.com/ShivAlley/2022TeamProduction4th.git"
     ]
 }
