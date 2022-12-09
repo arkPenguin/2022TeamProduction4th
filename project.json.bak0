@@ -1,0 +1,20 @@
+{
+    "project_name": "RenewProj",
+    "project_id": "{1ED2B761-BFDA-4DF0-BC47-CEF79486F86E}",
+    "origin": "The primary repo for RenewProj goes here: i.e. http://www.mydomain.com",
+    "license": "What license RenewProj uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "RenewProj",
+    "summary": "A short description of RenewProj.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "RenewProj"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "RenewProj"
+}
