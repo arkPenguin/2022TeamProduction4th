@@ -214,78 +214,6 @@
                 }
             }
         },
-        "Entity_[1163754259827]": {
-            "Id": "Entity_[1163754259827]",
-            "Name": "Camera",
-            "Components": {
-                "Component_[11895140916889160460]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 11895140916889160460
-                },
-                "Component_[16880285896855930892]": {
-                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
-                    "Id": 16880285896855930892,
-                    "Controller": {
-                        "Configuration": {
-                            "Field of View": 55.0,
-                            "EditorEntityId": 8929576024571800510
-                        }
-                    }
-                },
-                "Component_[17187464423780271193]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 17187464423780271193
-                },
-                "Component_[17495696818315413311]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 17495696818315413311
-                },
-                "Component_[18086214374043522055]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 18086214374043522055,
-                    "Parent Entity": "Entity_[1176639161715]",
-                    "Transform Data": {
-                        "Translate": [
-                            -2.3000001907348633,
-                            -3.9368600845336914,
-                            1.0
-                        ],
-                        "Rotate": [
-                            -2.050307512283325,
-                            1.9552897214889526,
-                            -43.623355865478516
-                        ]
-                    }
-                },
-                "Component_[2654521436129313160]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 2654521436129313160
-                },
-                "Component_[5265045084611556958]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 5265045084611556958
-                },
-                "Component_[7169798125182238623]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 7169798125182238623
-                },
-                "Component_[7255796294953281766]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 7255796294953281766,
-                    "m_template": {
-                        "$type": "FlyCameraInputComponent"
-                    }
-                },
-                "Component_[8866210352157164042]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 8866210352157164042
-                },
-                "Component_[9129253381063760879]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 9129253381063760879
-                }
-            }
-        },
         "Entity_[1172344194419]": {
             "Id": "Entity_[1172344194419]",
             "Name": "Shader Ball",
@@ -395,7 +323,6 @@
                     "Child Entity Order": [
                         "Entity_[1155164325235]",
                         "Entity_[1172344194419]",
-                        "Entity_[1163754259827]",
                         "Entity_[1159459292531]"
                     ]
                 },
@@ -404,6 +331,33 @@
                     "Id": 9277695270015777859
                 }
             }
+        }
+    },
+    "Instances": {
+        "Instance_[469888505695]": {
+            "Source": "Prefabs/stasisCamera.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[8215125632908912571]/Parent Entity",
+                    "value": "../Entity_[1176639161715]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[212248720432619]/Components/Component_[37154607548393991]/Transform Data/Translate/2",
+                    "value": 7.271429061889648
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[212248720432619]/Components/Component_[37154607548393991]/Transform Data/Rotate/0",
+                    "value": -36.02251052856445
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[212248720432619]/Components/Component_[37154607548393991]/Transform Data/Rotate/1",
+                    "value": -0.00013757208944298327
+                }
+            ]
         }
     }
 }
