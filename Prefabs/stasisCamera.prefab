@@ -52,7 +52,7 @@
     "Entities": {
         "Entity_[212244425465323]": {
             "Id": "Entity_[212244425465323]",
-            "Name": "statisCamera",
+            "Name": "stasisCamera",
             "Components": {
                 "Component_[11443347433215807130]": {
                     "$type": "EditorEntityIconComponent",
