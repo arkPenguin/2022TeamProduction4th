@@ -6,3 +6,4 @@ _savebackup/
 CMakeUserPresets.json
 *.setreg
 Assets/00_CanvasesPong
+Levels/test/_autobackup
