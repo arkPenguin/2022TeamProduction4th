@@ -16,5 +16,6 @@
     "external_subdirectories": [
         "Gem"
     ],
-    "restricted": "RenewProj"
+    "restricted": "RenewProj",
+    "gem_names": []
 }

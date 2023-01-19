@@ -4,3 +4,5 @@
 [Uu]ser_test*/
 _savebackup/
 CMakeUserPresets.json
+*.setreg
+Assets/00_CanvasesPong
