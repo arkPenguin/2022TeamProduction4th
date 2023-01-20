@@ -274,7 +274,8 @@
                     "$type": "GenericComponentWrapper",
                     "Id": 7255796294953281766,
                     "m_template": {
-                        "$type": "FlyCameraInputComponent"
+                        "$type": "FlyCameraInputComponent",
+                        "Is enabled": false
                     }
                 },
                 "Component_[8866210352157164042]": {
@@ -572,6 +573,13 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 13549949164683103877
                 },
+                "Component_[14823005788939977961]": {
+                    "$type": "EditorTagComponent",
+                    "Id": 14823005788939977961,
+                    "Tags": [
+                        "GrandParent"
+                    ]
+                },
                 "Component_[15777913032702295943]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 15777913032702295943,
@@ -601,6 +609,7 @@
                     "m_template": {
                         "$type": "SimpleStateComponent",
                         "InitialStateName": "Title",
+                        "ResetOnActivate": false,
                         "States": [
                             {
                                 "Name": "Title"
@@ -627,14 +636,41 @@
                     "Id": 9376188718228453381,
                     "configuration": {
                         "sourceHandle": {
-                            "id": "{6A91DF14-435A-52E0-872C-4325CFE7A846}",
-                            "path": "Assets/ababababab.scriptcanvas"
+                            "id": "{6CD676A4-92DD-5100-A891-50AE6D4612CB}",
+                            "path": "Assets/ScriptCanvas/GameState.scriptcanvas"
                         },
-                        "sourceName": "ababababab.scriptcanvas",
+                        "sourceName": "GameState.scriptcanvas",
                         "propertyOverrides": {
                             "source": {
-                                "id": "{6A91DF14-435A-52E0-872C-4325CFE7A846}",
-                                "path": "Assets/ababababab.scriptcanvas"
+                                "id": "{6CD676A4-92DD-5100-A891-50AE6D4612CB}",
+                                "path": "Assets/ScriptCanvas/GameState.scriptcanvas"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[14704494023191]": {
+            "Id": "Entity_[14704494023191]",
+            "Name": "Stage",
+            "Components": {
+                "Component_[12687997790796407233]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12687997790796407233
+                },
+                "Component_[13944843767720104080]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 13944843767720104080,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{6F1F61F5-736E-5370-B619-29EDDE28BE62}",
+                            "path": "Assets/ScriptCanvas/GrandSpawner.scriptcanvas"
+                        },
+                        "sourceName": "GrandSpawner.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{6F1F61F5-736E-5370-B619-29EDDE28BE62}",
+                                "path": "Assets/ScriptCanvas/GrandSpawner.scriptcanvas"
                             },
                             "variables": [
                                 {
@@ -648,9 +684,9 @@
                                         "value": ""
                                     },
                                     "VariableId": {
-                                        "m_id": "{CA0AC639-AFB5-4AFC-AAB5-056F9F839667}"
+                                        "m_id": "{13842D90-3F37-4ADF-9B1C-3CD03A280769}"
                                     },
-                                    "VariableName": "StageParent",
+                                    "VariableName": "GrandParent",
                                     "InitialValueSource": 1
                                 }
                             ],
@@ -663,30 +699,20 @@
                                         },
                                         "isNullPointer": false,
                                         "$type": "EntityId",
-                                        "value": ""
+                                        "value": "Entity_[14695904088599]"
                                     },
                                     "InputControlVisibility": {
                                         "Value": 850104567
                                     },
                                     "VariableId": {
-                                        "m_id": "{CA0AC639-AFB5-4AFC-AAB5-056F9F839667}"
+                                        "m_id": "{13842D90-3F37-4ADF-9B1C-3CD03A280769}"
                                     },
-                                    "VariableName": "StageParent",
+                                    "VariableName": "GrandParent",
                                     "InitialValueSource": 1
                                 }
                             ]
                         }
                     }
-                }
-            }
-        },
-        "Entity_[14704494023191]": {
-            "Id": "Entity_[14704494023191]",
-            "Name": "Stage",
-            "Components": {
-                "Component_[12687997790796407233]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 12687997790796407233
                 },
                 "Component_[15478832821162187221]": {
                     "$type": "EditorVisibilityComponent",

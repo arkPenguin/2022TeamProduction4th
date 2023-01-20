@@ -1,0 +1,229 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Game",
+        "Components": {
+            "Component_[10167892954132009607]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10167892954132009607
+            },
+            "Component_[12524194733503071474]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12524194733503071474,
+                "Child Entity Order": [
+                    "Entity_[808429057078990]"
+                ]
+            },
+            "Component_[13699381821018292051]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13699381821018292051,
+                "Parent Entity": ""
+            },
+            "Component_[13798831846231856604]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13798831846231856604
+            },
+            "Component_[13865037261411859697]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13865037261411859697
+            },
+            "Component_[16868206344472710561]": {
+                "$type": "EditorLockComponent",
+                "Id": 16868206344472710561
+            },
+            "Component_[3311115770379368795]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 3311115770379368795
+            },
+            "Component_[5748084727461348570]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5748084727461348570
+            },
+            "Component_[7383653841712237618]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7383653841712237618
+            },
+            "Component_[849170651422224117]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 849170651422224117
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[808429057078990]": {
+            "Id": "Entity_[808429057078990]",
+            "Name": "Game",
+            "Components": {
+                "Component_[12687997790796407233]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12687997790796407233
+                },
+                "Component_[15478832821162187221]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15478832821162187221
+                },
+                "Component_[16190978767040873609]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16190978767040873609,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6381344447257672095
+                        },
+                        {
+                            "ComponentId": 5085106555060412968,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4773987866342963716,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 17729349431776454723,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[16869621546537755439]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16869621546537755439
+                },
+                "Component_[17516190334725057012]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17516190334725057012
+                },
+                "Component_[17729349431776454723]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 17729349431776454723,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{FF6F724C-A73E-5DAD-9767-E3ED53D90D9A}",
+                            "path": "Assets/ScriptCanvas/testToStart.scriptcanvas"
+                        },
+                        "sourceName": "testToStart.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{FF6F724C-A73E-5DAD-9767-E3ED53D90D9A}",
+                                "path": "Assets/ScriptCanvas/testToStart.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 5
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                        "value": ""
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{14739CFB-4541-4A4E-83FB-547D1E3F2095}"
+                                    },
+                                    "VariableName": "EventToStart",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 5
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                        "value": ""
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{B4AE270C-4246-4F04-92E8-17AA3265A106}"
+                                    },
+                                    "VariableName": "NextState",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 5
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                        "value": "EventToStart"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{14739CFB-4541-4A4E-83FB-547D1E3F2095}"
+                                    },
+                                    "VariableName": "EventToStart",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 5
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                        "value": "Title"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{B4AE270C-4246-4F04-92E8-17AA3265A106}"
+                                    },
+                                    "VariableName": "NextState",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4714368019143356220]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4714368019143356220
+                },
+                "Component_[4773987866342963716]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 4773987866342963716,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{EC8DC400-7CEC-50B2-898C-11B20DD89206}"
+                            },
+                            "assetHint": "assets/inputbounding/testtostart.inputbindings"
+                        }
+                    }
+                },
+                "Component_[5085106555060412968]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 5085106555060412968,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "assets/00_canvasespong/ui/back.uicanvas"
+                        },
+                        "IsAutoLoad": true
+                    }
+                },
+                "Component_[5791409670439316935]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5791409670439316935
+                },
+                "Component_[6381344447257672095]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6381344447257672095,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[8089289270097839048]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8089289270097839048
+                }
+            }
+        }
+    }
+}
